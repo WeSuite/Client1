@@ -1,0 +1,23 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+  "ConnectionStrings": {
+    "WeCloudSQL": "data source=DESKTOP-2HB4A5I;initial catalog=WeCloud; Persist Security Info=True; User ID=sa; Password=deadline@1; MultipleActiveResultSets=True;"
+  },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": "5672",
+    "ConfigurationQueueName": "ConfigurationChanges"
+  }
+}
