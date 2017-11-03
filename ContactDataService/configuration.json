@@ -13,7 +13,7 @@
     }
   },
   "ConnectionStrings": {
-    "WeCloudSQL": "data source=DESKTOP-2HB4A5I;initial catalog=WeCloud; Persist Security Info=True; User ID=sa; Password=deadline@1; MultipleActiveResultSets=True;"
+    "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;trusted_connection=yes"
   },
   "RabbitMQ": {
     "Host": "localhost",
