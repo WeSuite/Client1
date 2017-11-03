@@ -5,6 +5,11 @@
   "ConnectionStrings": {
     "DefaultConnection": "server=DESKTOP-P1HOQI7;database=WeCloud;trusted_connection=yes"
   },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": "5672",
+    "ConfigurationQueueName": "ConfigurationChanges"
+  },  
   "Proxy": {
       "Url": "http://localhost:5003/api/ContactDataService",
       "Key": "API",
