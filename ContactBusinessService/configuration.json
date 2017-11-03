@@ -1,8 +1,14 @@
 {
-  ProxyUrl : "",
-  ProxyKey : "API",
-  ClientId : "Business",
-  SecretKey : "",
-  ConnectionString : "",
-  AuthServiceUrl : ""
+  "ClientId" : "Business",
+  "SecretKey" : "",
+  "AuthServiceUrl" : "",
+  "ConnectionStrings": {
+    "DefaultConnection": "server=DESKTOP-P1HOQI7;database=WeCloud;trusted_connection=yes"
+  }
+  "Proxy": {
+      "Url": "http://localhost:5003/api/ContactDataService",
+      "Key": "API",
+      "UserName": "",
+      "Passsword": ""
+    }
 }
