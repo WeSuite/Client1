@@ -1,9 +1,9 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": false,
+    "IncludeScopes": true,
     "Debug": {
       "LogLevel": {
-        "Default": "Error"
+        "Default": "Warning"
       }
     },
     "Console": {
