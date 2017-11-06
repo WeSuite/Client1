@@ -10,7 +10,7 @@
     "Port": "5672",
     "ConfigurationQueueName": "ConfigurationChanges"
   }, 
-  "ServiceDependencyType" : "PROXY", // type could be "PROXY"  or "LIBRARY"
+  "ServiceDependencyType" : "LIBRARY", // type could be "PROXY"  or "LIBRARY"
   "Proxy": {
       "Url": "http://localhost:5003/api/ContactDataService",
       "UserName": "",
