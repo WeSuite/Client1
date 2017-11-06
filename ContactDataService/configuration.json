@@ -3,7 +3,7 @@
     "IncludeScopes": true, // comment qqqqqqqq
     "Debug": {
       "LogLevel": {
-        "Default": "Warning"
+        "Default": "Error"
       }
     },
     "Console": {
