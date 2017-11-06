@@ -1,6 +1,6 @@
 {
   "ClientId" : "Business",
-  "SecretKey" : "",
+  "SecretKey" : "test key",
   "AuthServiceUrl" : "",
   "ConnectionStrings": {
     "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;trusted_connection=yes"
