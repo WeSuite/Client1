@@ -1,6 +1,6 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": true,
+    "IncludeScopes": false,
     "Debug": {
       "LogLevel": {
         "Default": "Warning"
