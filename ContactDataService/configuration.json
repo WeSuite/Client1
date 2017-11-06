@@ -1,6 +1,6 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": true, // comment removed
+    "IncludeScopes": true, // comment qqqqqqqq
     "Debug": {
       "LogLevel": {
         "Default": "Warning"
