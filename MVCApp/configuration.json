@@ -1,0 +1,27 @@
+﻿{
+  "ClientId": "WeCloud.MVC",
+  "SecretKey": "",
+  "AuthServiceUrl": "http://localhost:5000/",
+  "ConnectionStrings": {
+    "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;trusted_connection=yes"
+  },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": "5672",
+    "ConfigurationQueueName": "ConfigurationChanges"
+  },
+  "DataService": {
+    "DependencyType": "LIBRARY", // type could be "PROXY"  or "LIBRARY"
+    "Proxy": {
+      "Url": "http://localhost:5003/api/ContactDataService",
+      "UserName": "",
+      "Passsword": ""
+    }
+  },
+  "BusinessService": {
+    "DependencyType": "LIBRARY", // type could be "PROXY"  or "LIBRARY"
+    "Proxy": {
+      "Url": "http://localhost:5001/api/ContactService"
+    }
+  }
+}
