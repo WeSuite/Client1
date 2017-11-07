@@ -1,6 +1,6 @@
 ﻿{
-  "ClientId": "WeCloud.MVC",
-  "SecretKey": "",
+  "ClientId": "mvc",
+  "SecretKey": "secret",
   "AuthServiceUrl": "http://localhost:5000/",
   "ConnectionStrings": {
      "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;uid=sa;pwd=deadline@1"
