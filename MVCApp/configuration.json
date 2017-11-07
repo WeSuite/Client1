@@ -11,7 +11,7 @@
     "ConfigurationQueueName": "ConfigurationChanges"
   },
   "DataService": {
-    "DependencyType": "LIBRARY", // type could be "PROXY"  or "LIBRARY"
+    "DependencyType": "PROXY", // type could be "PROXY"  or "LIBRARY"
     "Proxy": {
       "Url": "http://localhost:5003/api/ContactDataService",
       "UserName": "",
@@ -19,7 +19,7 @@
     }
   },
   "BusinessService": {
-    "DependencyType": "LIBRARY", // type could be "PROXY"  or "LIBRARY"
+    "DependencyType": "PROXY", // type could be "PROXY"  or "LIBRARY"
     "Proxy": {
       "Url": "http://localhost:5001/api/ContactService"
     }
