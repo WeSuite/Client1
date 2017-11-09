@@ -21,12 +21,12 @@
   "DataServicePolicies" : {
 	"InternalServerError" :{
 		"NoOfFailures": "1",
-		"BreakDuration": "1"
+		"BreakDuration": "10"
 		},
 		
 	"RequestTimeOutError" :{
 		"NoOfFailures": "2",
-		"BreakDuration": "1"
+		"BreakDuration": "10"
 		}
 }
 }
