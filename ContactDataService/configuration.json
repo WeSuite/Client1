@@ -1,6 +1,6 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": true,  // 5 test comments no dsd
+    "IncludeScopes": true,  // 7 test comments no dsd
     "Debug": {
       "LogLevel": {
         "Default": "Error"
