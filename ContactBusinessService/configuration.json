@@ -1,9 +1,9 @@
 {
   "ClientId" : "Business",
-  "SecretKey" : "", // 6  6
+  "SecretKey" : "", // 6
   "AuthServiceUrl" : "http://localhost:5000/",
   "ConnectionStrings": {
-    "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;uid=sa;pwd=deadline@1"
+    "WeCloudSQL": "server=DESKTOP-80PKOSF;database=WeCloud;uid=sa;pwd=deadline@1"
   },
   "RabbitMQ": {
     "Host": "localhost",
