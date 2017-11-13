@@ -1,6 +1,6 @@
 {
   "ClientId" : "Business",
-  "SecretKey" : "", // 6  changed 
+  "SecretKey" : "", // 6  
   "AuthServiceUrl" : "http://localhost:5000/",
   "ConnectionStrings": {
     "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;uid=sa;pwd=deadline@1"
