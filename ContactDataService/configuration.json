@@ -1,6 +1,6 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": true,  // 7 test comments
+    "IncludeScopes": true,  // 7 test commentshgj
     "Debug": {
       "LogLevel": {
         "Default": "Error"
