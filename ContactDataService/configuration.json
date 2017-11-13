@@ -1,6 +1,6 @@
 ﻿{
   "Logging": {
-    "IncludeScopes": true,  // Test
+    "IncludeScopes": true,  // Test test
     "Debug": {
       "LogLevel": {
         "Default": "Error"
