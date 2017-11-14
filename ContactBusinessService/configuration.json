@@ -1,5 +1,5 @@
 {
-  "ClientId" : "Business",
+  "ClientId" : "BusinessClient1",
   "SecretKey" : "",
   "AuthServiceUrl" : "http://localhost:5000/", //Test Test
   "ConnectionStrings": {
