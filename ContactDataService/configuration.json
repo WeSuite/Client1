@@ -13,7 +13,7 @@
     }
   },
   "ConnectionStrings": {
-     "WeCloudSQL": "server=DESKTOP-80PKOSF;database=WeCloud;uid=sa;pwd=deadline@1"
+     "WeCloudSQL": "server=DESKTOP-P1HOQI7;database=WeCloud;uid=sa;pwd=deadline@1"
   },
   "RabbitMQ": {
     "Host": "localhost",
