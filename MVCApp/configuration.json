@@ -10,6 +10,29 @@
     "Port": "5672",
     "ConfigurationQueueName": "ConfigurationChanges"
   },
+  "DataServicePolicies" : {
+    "InternalServerError" :{
+      "NoOfFailures": "1",
+      "BreakDuration": "10"
+      },
+
+    "RequestTimeOutError" :{
+      "NoOfFailures": "2",
+      "BreakDuration": "10"
+      }
+ },
+     "BusinessServicePolicies" : {
+    "InternalServerError" :{
+      "NoOfFailures": "1",
+      "BreakDuration": "10"
+      },
+
+    "RequestTimeOutError" :{
+      "NoOfFailures": "2",
+      "BreakDuration": "10"
+      }
+ },
+   
   "DataService": {
     "DependencyType": "PROXY", // type could be "PROXY"  or "LIBRARY"
     "Proxy": {
